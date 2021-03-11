@@ -1,4 +1,98 @@
+:root {
+  --main-color-text: #212121;
+  --focus-color: #2196f3;
+  --second-color-text: #757575;
+  --color-section: #2f303a;
+  --color-second-section: #f5f4fa;
+}
+
 /* Основной цвет фона FFFFFF и 2F303A */
 /* Основной цвет текста  #212121*/
 /* Дополнительный цвет текста #757575 rgba(255, 255, 255, 0.6);*/
 /* Интереактив #2196F3; */
+
+body {
+  color: var(--second-color-text);
+}
+
+/* Header and footer */
+.logo .one-part {
+  color: var(--focus-color);
+}
+.logo .second-part {
+  color: #000000;
+}
+
+.second-part-footer {
+  color: #ffffff;
+}
+
+nav :hover,
+nav :focus {
+  color: var(--focus-color);
+}
+
+.site-nav > li > a {
+  color: var(--main-color-text);
+}
+
+.contacts {
+  color: var(--second-color-text);
+}
+
+.contacts-section > a :hover,
+.contacts-section > a :focus {
+  color: var(--focus-color);
+}
+
+.banner,
+footer {
+  background-color: var(--color-section);
+}
+
+.section-teem {
+  background-color: var(--color-second-section);
+}
+
+.title {
+  color: white;
+}
+
+/* Button */
+.active-button {
+  color: #ffffff;
+  background-color: var(--focus-color);
+}
+.inactive-button {
+  color: #f5f4fa;
+}
+
+.section-button > button {
+  color: var(--main-color-text);
+}
+
+button :hover,
+button :focus {
+  color: var(--focus-color);
+}
+
+.about-us-title {
+  color: rgba(0, 0, 0, 0);
+}
+
+.about-us,
+.subtitle {
+  color: var(--main-color-text);
+}
+
+.portfolio-title {
+  color: var(--main-color-text);
+}
+
+.subtext {
+  color: var(--second-color-text);
+}
+
+.where-is {
+  color: #ffffff;
+}
