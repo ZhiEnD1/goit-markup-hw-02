@@ -13,6 +13,8 @@
 
 body {
   background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -20,6 +22,13 @@ body {
 }
 
 /* Logo */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
 
 .logo .one-part {
   color: var(--accent-text-color);
@@ -36,6 +45,10 @@ body {
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -49,6 +62,10 @@ body {
 
 .contacts {
   color: var(--sub-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -59,22 +76,56 @@ body {
 /* Title */
 .about-us-title,
 .work-title,
-.team-title {
+.team-title,
+.portfolio-title {
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  text-transform: uppercase;
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-title-primary {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Hero */
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* subtext */
 .subtext {
   color: var(--sub-text-color);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1, 71;
 }
 
 .where-is {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
 }
 
 /* Background */
@@ -91,11 +142,19 @@ footer {
 .active-button {
   background-color: var(--accent-text-color);
   color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
 }
 
 .inactive-button {
   background-color: var(--second-bg-color);
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
 }
 
 .inactive-button:focus,
