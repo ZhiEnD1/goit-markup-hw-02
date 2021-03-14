@@ -35,10 +35,6 @@ body {
   color: var(--accent-text-color);
 }
 
-.hidden {
-  color: rgba(0, 0, 0, 0);
-}
-
 .logo .second-part {
   color: var(--primary-text-color);
 }
@@ -82,7 +78,6 @@ body {
 
 /* Title */
 .about-us-title,
-.portfolio-title,
 .portfolio-title {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
@@ -100,6 +95,10 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.hidden {
+  color: rgba(0, 0, 0, 0);
 }
 
 /* Hero */
@@ -169,3 +168,4 @@ footer {
   background-color: var(--accent-text-color);
   color: #ffffff;
 }
+
