@@ -26,12 +26,17 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo .one-part {
   color: var(--accent-text-color);
+}
+
+.hidden {
+  color: rgba(0, 0, 0, 0);
 }
 
 .logo .second-part {
@@ -47,8 +52,9 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -66,6 +72,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts:hover,
@@ -75,24 +82,19 @@ body {
 
 /* Title */
 .about-us-title,
-.work-title,
-.team-title,
+.portfolio-title,
 .portfolio-title {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-transform: uppercase;
 }
-.work-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1, 16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
+.work-title,
 .team-title-primary {
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -105,7 +107,7 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -113,19 +115,24 @@ body {
 
 /* subtext */
 .subtext {
+  font-family: Roboto;
   color: var(--sub-text-color);
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
 }
 
 .where-is {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+address {
+  font-style: normal;
 }
 
 /* Background */
@@ -144,7 +151,7 @@ footer {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
@@ -153,7 +160,7 @@ footer {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
