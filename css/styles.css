@@ -71,20 +71,36 @@ body {
   text-decoration: none;
 }
 
+.contacts-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-text-color);
 }
 
 /* Title */
-.about-us-title,
-.portfolio-title {
+.about-us-title {
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .work-title,
@@ -94,6 +110,12 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -134,6 +156,8 @@ address {
   font-style: normal;
 }
 
+
+
 /* Background */
 .hero,
 footer {
@@ -146,6 +170,7 @@ footer {
 
 /* Button */
 .active-button {
+  font-family: Roboto;
   background-color: var(--accent-text-color);
   color: #ffffff;
   font-weight: 700;
@@ -155,6 +180,7 @@ footer {
 }
 
 .inactive-button {
+  font-family: Roboto;
   background-color: var(--second-bg-color);
   color: var(--primary-text-color);
   font-weight: 700;
